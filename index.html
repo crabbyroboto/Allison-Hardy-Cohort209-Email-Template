@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid overflow-hidden">
         <div class="row">
-          <div class="col-md-3 d-none d-sm-block vh-100 cell1">
+          <div class="col-md-2 cell1 vh-100"> 
             <h5 class = "py-4 welcome">Welcome back!</h5>
             <button type="button" class="btn btn-primary">Compose</button>
             <ul class="nav flex-column py-4">
@@ -34,30 +34,36 @@
               </li>              
             </ul>
           </div>
-          <div class="col-md-4 vh-100 py-4 overflow-hidden cell2">
+          <div class="col-md-4 cell2 py-4"> 
                       
-            <nav class="navbar navbar-light justify-content-center nav1">
+            <nav class="navbar navbar-light justify-content-start nav1">
               <a class="navbar-brand"></a>
               <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0 bg-light" type="submit">Search</button>
               </form>
             </nav>
-            <div class= "px-3 py-2 m-3 email">
-              <p><h6>Email 1</h6>
-              Hello it is I, Jeffrey Turkey!!! Gobble Gobble!</p>
+            <div class= "px-3 py-2 email">
+              <div class = "header"><h6>The Turkey</h6><p class = "date">11/2/2020</p></div>
+              <p>Hello it is I, Jeffrey Turkey!!! Gobble Gobble! ...</p>
             </div>
-            <div class= "px-3 py-2 m-3 email">
-              <p><h6>Email 2</h6>
-              How is it hanging? It has been a while.</p>
+            <div class= "px-3 py-2 email">
+              <div class = "header"><h6>Travelling Frog</h6><p class = "date">11/2/2020</p></div>
+              How is it hanging? It has been a while. ...</p>
             </div>
-            <div class= "px-3 py-2 m-3 email">
-              <p><h6>Email 3</h6>
-              Did you do that homework problem yet? The one we have been stumped on?</p>
+            <div class= "px-3 py-2 email">
+              <div class = "header"><h6>Josie Catnips</h6><p class = "date">11/2/2020</p></div>
+              <p>Did you do that homework problem yet? ...</p>
             </div>
           </div>
-          <div class="col-md-5 d-none d-sm-block vh-100 cell3">
-            <h6 class = "py-4">Email</h6>
+          <div class="col-md-6 vh-100 cell3"> 
+            <div>
+              
+              <p class = "py-4">To: Allison Hardy <br> 
+                 From: The Turkey</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed ullam et accusantium voluptates placeat adipisci. Deleniti saepe autem obcaecati eaque quis doloremque. Voluptatem delectus nisi temporibus. Ad, numquam repellendus!</p>
+            </div>
+            
           <form class = "align-bottom"> 
             <div class="form-group">
               <label for="reply">Reply</label>
