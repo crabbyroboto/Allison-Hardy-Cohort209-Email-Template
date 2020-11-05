@@ -31,6 +31,12 @@
     background-color: whitesmoke;
 }
 
+.email-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 
 .header {
     display: flex;
@@ -43,6 +49,24 @@
     background-color: #007bff;
 }
 
+.to-from {
+    font-size: 14px;
+}
+
 .welcome {
     color: whitesmoke;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper input {
+    display: inline-block;
+    width: calc(100% - 100px);
+}
+
+.wrapper button {
+    width: 80px;
 }
